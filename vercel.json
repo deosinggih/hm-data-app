@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "env": {
+    "VITE_API_PROXY_TARGET": "@vercel_vite_api_proxy_target"
+  },
+  "env_aliases": {
+    "vercel_vite_api_proxy_target": "VITE_API_PROXY_TARGET"
+  }
+}
